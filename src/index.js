@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <h1> Gather Data Seeder</h1>
-      <h2>Enter ID of Company To Clone & Migrate</h2>
+      <p>Enter seeder config details below:</p>
       <Input handleChange={handleChange} />
       <Button handleClick={handleClick} />
     </div>
